@@ -5,7 +5,7 @@
         {
             Debug.Log("Animal sound");
         }
-        public virtual void Move()
+        public void Move()
         {
             Debug.Log("Animal moves");
         }
@@ -16,7 +16,7 @@
         {
             Debug.Log("Meow!");
         }
-        public override void Move()
+        public new void Move()
         {
             Debug.Log("Cat runs quickly.");
         }
