@@ -1,6 +1,3 @@
-using Unity.VisualScripting;
-using UnityEngine;
-
 namespace Assignment29
 {
     public class CustomObject
