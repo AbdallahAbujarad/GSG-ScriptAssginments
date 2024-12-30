@@ -1,11 +1,13 @@
+using System;
 using UnityEngine;
 
 namespace Assignment29
 {
-    public class GameObject : MonoBehaviour
+    public class GameObject1 : MonoBehaviour
     {
         CustomObject obj1 = new CustomObject(1,"Ahmed Mo7sen");
         CustomObject obj2 = new CustomObject(2,"Aseel");
+
         private void Start() {
             print(obj1.ToString());
             print($"Are they equal? {obj1 == obj2}");
