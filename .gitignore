@@ -77,3 +77,5 @@ crashlytics-build.properties
 *.unity
 /ProjectSettings/
 *.inputactions
+/[Aa]ssets/AdventureTimeProto/
+/[Aa]ssets/UpGrade/
